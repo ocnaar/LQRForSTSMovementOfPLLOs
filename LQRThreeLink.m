@@ -6,7 +6,7 @@
 %
 % Dynamics of a three link robot with revolute joints modeling the Sit-to-
 % Stand (STS) movement of a powered lower limb orthosis. The torque at the 
-% hips, the torque at the shouders, the horizontal force at the shoulders, 
+% hips, the torque at the shoulders, the horizontal force at the shoulders, 
 % and the vertical force at the shoulders are applied by a finite horizon
 % LQR controller to perform a rest-to-rest maneuver between the sitting 
 % position defined by zi and the standing position defined by zf.
