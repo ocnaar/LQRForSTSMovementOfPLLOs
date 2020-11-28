@@ -14,8 +14,8 @@
 % in the vector pnom, while the actual values of the parameters (unknown to 
 % the controller) are assigned in vector punc.
 % The complete control algorithm is published in:
-% O. Narvaez-Aroche, A. Packard, and M. Arcak, ìFinite time robust 
-% control of the Sit-to-Stand movement for powered lower limb orthoses,î
+% O. Narvaez-Aroche, A. Packard, and M. Arcak, ‚ÄúFinite time robust 
+% control of the Sit-to-Stand movement for powered lower limb orthoses,‚Äù
 % American Control Conference, June 2018, Milwaukee, WI, USA.
 % http://dx.doi.org/10.23919/ACC.2018.8431465
 %
@@ -33,7 +33,7 @@
 %   x(3): angular position of link 3 relative to link 2 [rad].
 %   x(4): angular velocity of link 1 in the inertial frame [rad/s].
 %   x(5): angular velocity of link 2 [rad/s].
-%   x(6): angular velocity of link 2 [rad/s].
+%   x(6): angular velocity of link 3 [rad/s].
 %
 % K: m by n by nt array to interpolate LQR gain at time t.
 %
