@@ -40,11 +40,6 @@
 % tgrid: 1 by nt array with values of time for which the m by n LQR gains
 %   are known.
 %
-% u: System Inputs 
-%   u(1): torque applied by user to link 3 at shoulder joint [N.m].
-%   u(2): horizontal force applied by user at shoulder joint [N].
-%   u(3): vertical force applied by user at shoulder joint [N].
-%
 % zi: Coordinates on the z-space for sitting position.
 %   zi(1): angular position of link 2 relative to link 1 [rad].
 %   zi(2): x coordinate of the Center of Mass (CoM) [m].
